@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "node",
+		"pretty": true,
+		"lib": ["dom", "esnext"],
+		"outDir": "./dist",
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"resolveJsonModule": true,
+		"importHelpers": true,
+		"types": [
+			"node",
+			"jest"
+		]
+	}
+}
